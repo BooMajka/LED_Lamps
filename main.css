@@ -1,0 +1,73 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Racing+Sans+One&display=swap');
+
+body {margin: 0; font-family:Verdana, sans-serif; color: rgb(100,100,100);}
+
+a:link, a:visited {color:rgb(172, 169, 169); display:inline-block;}
+a:hover {color: rgb(150, 120, 120);}
+
+.button {width: 70%; height: 60px; padding:5px; margin:5px; background: url("images/buttonbg.jpg"); text-align: center; font-size: 160%; border: 1px solid rgb(253, 251, 249); border-radius: 5px; box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.5),0px 2px 0px 0px rgba(185,91,12,1),inset 0px 1px 0px 0px rgba(255,255,255,0.5); cursor: pointer;}
+.button a {color: rgb(255,255,255); text-decoration: none; text-shadow: 2px 2px 0px rgba(0,0,0,0.25);}
+.button:hover {background: url("images/buttonbg_o.jpg");}
+
+
+header {width: 100%; height:auto; background: rgb(0,0,0); padding: 40px}
+	#logo img {width: 100%; padding: 5px 20px 5px 5px; float: left; margin: 0 20px 0 0; }
+
+section.hero {width: 100%; height: auto; padding: 5px 0; background: url("images/herobg.jpg"); background-size: 100% 100%; margin-bottom: 20px;}
+	.row .heroimage {margin: 20px; float: left; width: 100%;}
+	.herocontent {width: 390px; margin-left: 20px; padding-top: 40px; color: rgb(255,255,255); margin-right: 10px; text-shadow: 2px 2px 5px rgba(0,0,0,0.75);}
+	section.hero h1 {font-size: 325%; margin-bottom: 20px; font-family:  'Racing Sans One', cursive; line-height: 1em;font-weight: normal;}
+	section.hero p {margin-bottom: 60px;}
+
+section.features {width:100%; height:auto; margin: 0 auto; padding: 5px 0;}
+	section.features h2 {text-align: center; margin-bottom:20px; font-family:  'Racing Sans One', cursive; font-weight: normal; color: rgb(110,70,70)}
+	section.features h3 {font-size: 100%; font-weight: normal; text-align: center; margin: 20px; color: rgb(118,118,118); }
+	section.features aside .row {width:100%; height: auto; float: left; text-align: center; margin-left: 20px;}
+	section.features aside .row img:hover {-webkit-transform:scale(1.1) rotate(20deg);
+		transform:scale(1.1) rotate(20deg);}
+	section.features aside .row img {width:100%; height: 100px; margin-bottom:-20px; border-radius:50%;box-shadow:3px 3px 0 #eee;
+	
+		-webkit-transition:transform 500ms ease;
+		transition:transform 500ms ease;}
+	section.features aside .row h3 {font-size: 100%; font-weight: normal; font-family:  'Racing Sans One', cursive; color: rgb(80,80,80);}
+
+
+section.instructions {width: 100%; height: auto; background: rgb(240,240,240); padding: 5px 0; margin-bottom: 5px; border-top: 1px solid rgb(80,80,80); border-bottom: 1px solid rgb(80,80,80);}
+	section.instructions img, section.specifications img {width: 440px; height: 200px; margin-left: 20px; margin-top: 5px;}
+	.instructionscontent .content, .specificationscontent .content {font-weight: normal; margin: 20px; color: rgb(118,118,118); text-align: justify;}
+	.instructionscontent h2, .specificationscontent h2 {text-align: center; margin:20px; font-family:  'Racing Sans One', cursive; font-weight: normal; color: rgb(110,70,70)}
+	section.instructions img {float:right;}
+	section.specifications img {float:left;}
+
+section.specifications {width: 100%; height: auto; margin: 0 auto 5px; padding: 5px 0;}
+
+section.get {width: 100%; height:auto; background: black; padding: 5px 0;}
+	section.get h1 {font-family: 'Permanent Marker', cursive; font-size: 230%; color:rgb(141, 138, 138); margin-left:30px; margin-top:35px; font-weight: normal; float: right;}
+	section.get .button {width: 70%; height: 60px; padding:5px; margin:20px; float: right; background: url("images/buttonbg.jpg"); text-align: center; font-size: 150%; border: 1px solid rgb(248, 247, 246); border-radius: 5px; box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.5),0px 2px 0px 0px rgba(185,91,12,1),inset 0px 1px 0px 0px rgba(255,255,255,0.5); cursor: pointer;}
+
+.footer {width: 100%; height: 60px; padding: 5px 0; text-align: center;}
+	.footer a {font-size: 80%; color: rgb(0,0,0); text-decoration: underline; font-weight: normal;}
+
+/* Site header */
+#site-header {background-color:#465057; padding: 20px 20px 20px 0; margin-bottom:20px;}
+#site-header p {color:rgb(172, 169, 169); margin-bottom:20px;padding: 0 20px 0 20px;}
+#site-header h1 {margin-bottom: 30px;font-family:  'Racing Sans One', cursive;color:rgb(141, 138, 138);}
+
+/* Page header */
+#page-header h2 {margin-bottom: 30px;font-family:  'Racing Sans One', cursive;color:rgb(172, 169, 169);}
+#page-header p {color:rgb(141, 138, 138); margin-bottom:40px; padding: 0 20px 0 20px;}
+
+/* Gallery */
+.products {text-align: center; padding: 0 20px;}
+.products p {margin-top: 8px; padding:5px;}
+.products [class*="col-"] {margin-bottom: 30px;}
+.row .FeatureBox {height: 100%; background-color: rgb(220,220,220); padding:5px;}
+.row .FeatureBoxImage {background: rgb(253, 253, 253); width: 100%; height: auto; margin-bottom: 10px; padding:5px; border: 5px solid rgb(182, 178, 178); margin-top:20px;}
+
+.row .button-checkout {width: 97%; height: 50px; padding:5px; margin:5px;background: url("images/buttonbg.jpg"); text-align: center; font-size: 150%; border: 1px solid rgb(255, 255, 255); border-radius: 5px; box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.5),0px 2px 0px 0px rgba(185,91,12,1),inset 0px 1px 0px 0px rgba(255,255,255,0.5); cursor: pointer; color: rgb(255,255,255); text-decoration: none; text-shadow: 2px 2px 0px rgba(0,0,0,0.25);}
+.row .button-checkout:hover {background: url("images/buttonbg_o.jpg");}
+
+.contact {width: 100%; height: auto; background: rgb(240,240,240); padding: 0 20px 0 20px; margin-bottom: 5px; border-top: 1px solid rgb(80,80,80); border-bottom: 1px solid rgb(80,80,80);}
+.contact h1  {text-align: center; margin:20px; font-family:  'Racing Sans One', cursive; font-weight: normal; color: rgb(110,70,70)}
+.contact p {font-weight: normal; margin: 20px; color: rgb(118,118,118); }
