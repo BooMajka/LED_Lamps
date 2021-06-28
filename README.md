@@ -5,3 +5,4 @@ Simple layout for e-commerce
 
 - CSS
 - HTML
+- RWD
